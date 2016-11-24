@@ -1,0 +1,117 @@
+.navbar-default {
+    background-color: white;
+    border-color: fade($gray-darker, 5%);
+    @include transition-all;
+    @include heading-font;
+
+    .navbar-header .navbar-brand {
+        @include heading-font;
+        color: $theme-primary;
+
+        &:focus,
+        &:hover {
+            color: darken($theme-primary, 10%);
+        }
+    }
+
+    .navbar-header .navbar-toggle {
+        font-size: 24px;
+        padding: 8px 10px;
+    }
+
+    .navbar-nav {
+        & > .open {
+            & > a,
+            & > a:focus,
+            & > a:hover {
+                color: $theme-primary;
+                background-color: transparent;
+            }
+        }
+
+        > li > .dropdown-menu {
+            > li > a {
+                padding: 8px 20px;
+                font-size: 14px;
+                font-weight: 500;
+            }
+
+            .dropdown-header {
+                color: $white;
+            }
+            @media (min-width:768px) {
+                left: 0;
+                right: auto;
+            }
+        }
+    }
+
+    .nav {
+        > li {
+            > a {
+                @include alt-font;
+                font-size: 16px;
+                font-weight: 400;
+            }
+
+             > a:focus,
+            > a {
+                color: $gray-darker;
+
+                &:hover {
+                    color: $theme-primary;
+                }
+            }
+
+            &.active {
+                 > a:focus,
+                > a {
+                    color: $theme-primary !important;
+                    background-color: transparent;
+
+                    &:hover {
+                        background-color: transparent;
+                    }
+                }
+            }
+        }
+    }
+    @media (min-width: 768px) {
+        background-color: transparent;
+        border-color: transparent;
+        height: 80px;
+        padding: 15px 0 0;
+
+        .nav > li > a,
+        .nav > li > a:focus {
+            color: white;
+
+            &:hover {
+                color: fade(white, 50%);
+            }
+        }
+
+        &.affix {
+            background-color: white;
+            border-color: fade($gray-darker, 10%);
+
+            .navbar-header .navbar-brand {
+                color: $gray-darker;
+
+                &:focus,
+                &:hover {
+                    color: $theme-primary;
+                }
+            }
+
+            .nav > li > a,
+            .nav > li > a:focus {
+                color: $gray-darker;
+
+                &:hover {
+                    color: $theme-primary;
+                }
+            }
+        }
+    }
+}

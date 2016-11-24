@@ -1,0 +1,88 @@
+
+
+.pathos-row {
+  .patho {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    &.border-bottom {
+      &:before {
+        content: ' ';
+        position: absolute;
+        left: 3%;
+        right: 3%;
+        bottom: 0;
+        height: 1px;
+        background: $theme-primary;
+        @media (max-width: 991px) {
+          display: none;
+        }
+      }
+    }
+    &.border-right {
+      &:after {
+        content: ' ';
+        position: absolute;
+        top: 3%;
+        bottom: 3%;
+        right: 0;
+        width: 1px;
+        background: $theme-primary;
+        @media (max-width: 991px) {
+          display: none;
+        }
+      }
+    }
+    h3 {
+      opacity: 0.6;
+      font-size: 24px;
+      font-weight: 500;
+    }
+    &:hover {
+      h3 {
+        opacity: 1;
+        color: $theme-primary;
+      }
+    }
+  }
+}
+
+.disease {
+  i {
+    margin-bottom: 30px;
+  }
+  img {
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+    border: 1px solid $theme-primary;
+    border-radius: 100%;
+  }
+
+  h3  {
+    width: 50%;
+    margin: 20px auto;
+    padding: 6px 12px;
+    background: $white-base;
+    border: 1px solid $theme-primary;
+    color: $theme-primary;
+    border-radius: 6px;
+  }
+}
+
+//line in pathogen
+.patho-steps {
+  position: relative;
+  .patho-progress {
+    position: absolute;
+    top: 190px;
+    width: 100%;
+    display: block;
+    height: 2px;
+    background: white;
+    z-index: 0;
+    @media (max-width: 991px) {
+      display: none;
+    }
+  }
+}

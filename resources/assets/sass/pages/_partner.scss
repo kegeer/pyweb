@@ -1,0 +1,13 @@
+.feature-box {
+  padding: 80px 40px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  visibility: visible;
+  min-height: 600px;
+  .box-content {
+    position: relative;
+    z-index: 3;
+    max-width: 70%;
+  }
+}

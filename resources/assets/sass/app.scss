@@ -1,0 +1,29 @@
+
+// Fonts
+
+@import "../vendor/font-awesome/scss/font-awesome";
+// Variables
+@import "mixins";
+@import "variables";
+
+
+// Bootstrap
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+//elements
+@import "global";
+@import "elements/navbar";
+@import "elements/button";
+@import "elements/footer";
+
+
+//pages
+
+@import "pages/global";
+@import "pages/index";
+@import "pages/microbiome";
+@import "pages/products";
+@import "pages/pathogen";
+@import "pages/partner";
+@import "pages/hire";
