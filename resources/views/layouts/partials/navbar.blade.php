@@ -45,16 +45,14 @@
                     <a href="/pathogen">病原微生物</a>
                 </li>
                 <li>
+                    <a href="/us">我们</a>
+                </li>
+                <li>
                     <a href="/partner">合作</a>
                 </li>
-
                 <li>
                     <a href="/hire">招聘</a>
                 </li>
-                <li>
-                    <a href="/us">关于</a>
-                </li>
-
             </ul>
         </div>
 

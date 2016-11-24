@@ -187,7 +187,7 @@
 
             <div class="container">
                 <div class="row text-center">
-                    <div class="col-lg-3 col-lg-push-1 col-md-4">
+                    <div class="col-lg-3 col-lg-push-1 col-md-4 md-text-right">
                         <div class="feature">
                             <!-- <span class="icon">
                                 <i class="fa fa-cube"></i>
@@ -208,9 +208,9 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-lg-push-1 col-md-4">
-                        <img src="/images/baby-intro.jpg" alt="" class="img-responsive" style="wigth:100%;border-radius:100%">
+                        <img src="/images/baby-intro.svg" alt="" class="img-responsive img-intro">
                     </div>
-                    <div class="col-lg-3 col-lg-push-1 col-md-4">
+                    <div class="col-lg-3 col-lg-push-1 col-md-4 md-text-left">
                         <div class="feature">
                             <!-- <span class="icon">
                                 <i class="fa fa-cube"></i>

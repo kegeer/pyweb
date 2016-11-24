@@ -63,25 +63,25 @@
             <div class="row number">
                 <div class="col-sm-6 col-md-3">
                     <div class="number-block">
-                        <span class="count">10</span>
+                        <span class="count">10<span class="index">1</span></span>
                         <span class="text">十年的微生物（宏）基因组研究经验</span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-3">
                     <div class="number-block">
-                        <span class="count">1000</span>
+                        <span class="count">10<span class="index">3</span></span>
                         <span class="text">1000㎡P2+级别高规格生物实验室</span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-3">
                     <div class="number-block">
-                        <span class="count">10000</span>
+                        <span class="count">10<span class="index">4</span></span>
                         <span class="text">10000份微生物样品处理经验</span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-3">
                     <div class="number-block">
-                        <span class="count">100000</span>
+                        <span class="count">10<span class="index">5</span></span>
                         <span class="text">100000份微生物基因数据分析经验</span>
                     </div>
                 </div>
@@ -198,7 +198,7 @@
                         <div class="icon-bx">
                             <img src="/images/by-index-2.png">
                         </div>
-                        <h3>测序文件构建</h3>
+                        <h3>测序文库构建</h3>
                     </div>
                 </div>
                 <div class="col-md-2 m-b-100">
@@ -257,33 +257,33 @@
                 </div>
                 <div class="col-md-3 col-sm-6 client border-bottom border-right">
                     <img src="/images/pt-2.jpg" width="90" height="78">
-                    <p>深圳市罗湖总医院</p>
+                    <p>深圳市儿童医院</p>
                 </div>
                 <div class="col-md-3 col-sm-6 client border-bottom border-right">
                     <img src="/images/pt-3.jpg" width="90" height="78">
-                    <p>深圳市罗湖总医院</p>
+                    <p>第四军医大学附属西京医院</p>
                 </div>
                 <div class="col-md-3 col-sm-6 client border-bottom">
                     <img src="/images/pt-4.jpg" width="90" height="78">
-                    <p>深圳市罗湖总医院</p>
+                    <p>中国人民解放军总医院</p>
                 </div>
             </div>
             <div class="row clients-row">
                 <div class="col-md-3 col-sm-6 client border-right">
                     <img src="/images/pt-5.jpg" width="90" height="78">
-                    <p>深圳市罗湖总医院</p>
+                    <p>深圳市第二人民医院</p>
                 </div>
                 <div class="col-md-3 col-sm-6 client border-right">
                     <img src="/images/pt-6.jpg" width="90" height="78">
-                    <p>深圳市罗湖总医院</p>
+                    <p>北京大学人民医院</p>
                 </div>
                 <div class="col-md-3 col-sm-6 client border-right">
                     <img src="/images/pt-7.jpg" width="90" height="78">
-                    <p>深圳市罗湖总医院</p>
+                    <p>中国军事医学科学院</p>
                 </div>
                 <div class="col-md-3 col-sm-6 client">
                     <img src="/images/pt-8.jpg" width="90" height="78">
-                    <p>深圳市罗湖总医院</p>
+                    <p>中国医学科学院肿瘤医院</p>
                 </div>
             </div>
         </div>

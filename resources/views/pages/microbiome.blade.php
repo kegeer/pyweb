@@ -35,15 +35,17 @@
     <section class="section" style="background-color: #f5f7f9">
 
         <div class="container">
-            <div class="row m-b-80">
-                <div class="col-md-8 col-md-push-5">
-                    <img src="/images/mb-baba.jpeg" alt="" class="img-responsive img-shadow">
+
+            <div class="row row-double right m-b-60">
+                <div class="col-md-6 image">
+                    <img src="/images/mb-baba.jpeg" alt="" class="bg-image">
                 </div>
-                <div class="col-md-4 col-md-pull-8">
-                    <div class="mb">
-                        <h3>粑粑说</h3>
-                        <p>通过获取少量粪便，让肠道微生物来告诉你的健康状态</p>
-                        <ul class="list-items">
+                <div class="col-md-6 content bg-white">
+                    <h2>粑粑说</h2>
+                    <p class="text-white-dark bg-white">
+                        通过获取少量粪便，让肠道微生物来告诉你的健康状态
+                    </p>
+                    <ul class="list-items">
                             <li>
                                 <i class="fa fa-check"></i>
                                 无创取粑粑
@@ -61,16 +63,20 @@
                                 个体化的健康管理方案
                             </li>
                         </ul>
-                        <a href="/baba" class="btn btn-default btn-xl">去查看</a>
-                    </div>
+                        <a href="/baba" class="btn btn-default">
+                            <i class="fa fa-eye"></i>
+                            去看看
+                        </a>
                 </div>
             </div>
 
-            <div class="row m-b-80">
-                <div class="col-md-8 col-md-pull-1">
-                    <img src="/images/mb-mum-baby.jpg" alt="" class="img-responsive img-shadow">
-                </div>
-                <div class="col-md-4">
+            <div class="row row-double left m-b-60">
+                
+                <div class="col-md-6 content bg-white">
+                    <h2>孕婴产品</h2>
+                    <p class="text-white-dark bg-white">
+                        不要让孩子病在“起跑线”
+                    </p>
                     <div class="panel-group mb" id="accordion">
                         <div class="panel panel-default">
                             <div class="panel-heading">
@@ -96,14 +102,20 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-6 image">
+                    <img src="/images/mb-mum-baby.jpg" alt="" class="bg-image">
+                </div>
             </div>
 
-            <div class="row">
-                <div class="col-md-8 col-md-push-5">
-                    <img src="/images/mb-work.jpeg" alt="" class="img-responsive img-shadow">
+            <div class="row row-double right m-b-60">
+                <div class="col-md-6 image">
+                    <img src="/images/mb-work.jpeg" alt="" class="bg-image">
                 </div>
-                <div class="col-md-4 col-md-pull-8">
-
+                <div class="col-md-6 content bg-white">
+                    <h2>白领健康</h2>
+                    <p class="text-white-dark bg-white">
+                        生活质量提高了，健康不能忽视
+                    </p>
                     <div class="panel-group mb" id="accordion">
                         <div class="panel panel-default">
                             <div class="panel-heading">

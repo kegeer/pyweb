@@ -11438,6 +11438,31 @@ p.lead {
   font-weight: 400;
 }
 
+.img-intro {
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.md-text-left {
+  text-align: left;
+}
+
+@media (max-width: 991px) {
+  .md-text-left {
+    text-align: center;
+  }
+}
+
+.md-text-right {
+  text-align: right;
+}
+
+@media (max-width: 991px) {
+  .md-text-right {
+    text-align: center;
+  }
+}
+
 #index {
   position: relative;
   width: 100%;
@@ -11595,15 +11620,22 @@ p.lead {
   margin-top: 24px;
 }
 
-.number-block span {
+.number-block > span {
   display: block;
   text-align: center;
+}
+
+.number-block > span .index {
+  font-size: 24px;
+  font-weight: 300;
+  color: #000;
+  vertical-align: text-top;
 }
 
 .number-block .count {
   font-size: 48px;
   margin-bottom: 24px;
-  color: #000;
+  color: #777777;
 }
 
 .number-block .text {
@@ -11807,13 +11839,15 @@ p.lead {
 }
 
 .feature h5 {
-  font-size: 18px;
-  font-weight: 400;
-  margin-bottom: 14px;
+  font-size: 20px;
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 20px;
 }
 
 .feature p {
   font-size: 14px;
+  color: #888888;
 }
 
 .icon {
@@ -11890,8 +11924,23 @@ p.lead {
   margin-right: 0;
 }
 
+.row-double .bg-image {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
 .row-double.right .image {
   right: 0;
+}
+
+.row-double.right .image .bg-image {
+  left: 0;
 }
 
 @media only screen and (max-width: 991px) {
@@ -11914,19 +11963,11 @@ p.lead {
   }
 }
 
-.row-double.right .bg-image {
-  position: absolute;
-  top: 0;
+.row-double.left .image {
   left: 0;
-  width: 100%;
-  height: 100%;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: 0;
 }
 
-.row-double.left .image {
+.row-double.left .image .bg-image {
   left: 0;
 }
 
@@ -11940,6 +11981,7 @@ p.lead {
 
 .row-double.left .content {
   right: 0;
+  margin-left: 50%;
 }
 
 @media only screen and (max-width: 991px) {
@@ -11948,18 +11990,6 @@ p.lead {
     left: 0;
     padding: 6%;
   }
-}
-
-.row-double.left .bg-image {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: 0;
 }
 
 .row-double .content {

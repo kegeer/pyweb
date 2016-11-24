@@ -184,7 +184,7 @@
 
             <div class="container">
                 <div class="row text-center">
-                    <div class="col-lg-3 col-lg-push-1 col-md-4">
+                    <div class="col-lg-3 col-lg-push-1 col-md-4 md-text-right">
                         <div class="feature">
                             <!-- <span class="icon">
                                 <i class="fa fa-cube"></i>
@@ -205,9 +205,9 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-lg-push-1 col-md-4">
-                        <img src="/images/obesity-intro.jpg" alt="" class="img-responsive" style="wigth:100%;border-radius:100%">
+                        <img src="/images/obesity-intro.svg" alt="" class="img-responsive img-intro">
                     </div>
-                    <div class="col-lg-3 col-lg-push-1 col-md-4">
+                    <div class="col-lg-3 col-lg-push-1 col-md-4 md-text-left">
                         <div class="feature">
                             <!-- <span class="icon">
                                 <i class="fa fa-cube"></i>
@@ -238,7 +238,7 @@
         <div class="container">
             <div class="row row-double right m-b-60">
                 <div class="col-md-6 image">
-                    <div class="bg-image" style="background-image:url('images/obesity-suit.png')"></div>
+                    <div class="bg-image" style="background-image:url('images/obesity-suit.jpg')"></div>
                 </div>
                 <div class="col-md-6 content bg-white">
                     <h2>适用领域以及症状</h2>

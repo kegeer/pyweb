@@ -136,14 +136,20 @@
 }
 .number-block  {
   margin-top: 24px;
-  span {
+  &>span {
     display: block;
     text-align: center;
+    .index {
+      font-size: 24px; 
+      font-weight: 300;
+      color: $gray-base;
+      vertical-align: text-top;
+    }
   }
   .count {
     font-size: 48px;
     margin-bottom: 24px;
-    color: $gray-base;
+    color: $gray-light;
   }
   .text {
     color: $gray-light;
@@ -267,3 +273,4 @@
     }
   }
 }
+

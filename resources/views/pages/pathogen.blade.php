@@ -62,31 +62,27 @@
                     <h3>真菌</h3>
                 </div>
             </div>
-            <div class="row text-center">
+            <div class="row text-center m-t-30">
                 <div class="col-md-3 col-sm-6">
                     <div class="disease">
-                        <i class="fa fa-angle-down fa-3x text-primary m-b-15"></i>
                         <img src="/images/patho-disease-1.jpg" alt="" class="img-responsive">
-                        <h3>脑病</h3>
+                        <h3>病脑</h3>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="disease">
-                        <i class="fa fa-angle-down fa-3x text-primary m-b-15"></i>
                         <img src="/images/patho-disease-2.jpg" alt="" class="img-responsive">
                         <h3>化脑</h3>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="disease">
-                        <i class="fa fa-angle-down fa-3x text-primary m-b-15"></i>
                         <img src="/images/patho-disease-3.jpg" alt="" class="img-responsive">
                         <h3>结脑</h3>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="disease">
-                        <i class="fa fa-angle-down fa-3x text-primary m-b-15"></i>
                         <img src="/images/patho-disease-4.jpg" alt="" class="img-responsive">
                         <h3>其他</h3>
                     </div>
@@ -130,7 +126,7 @@
                         <div class="icon-bx">
                             <img src="/images/by-index-2.png">
                         </div>
-                        <h3>测序文件构建</h3>
+                        <h3>测序文库构建</h3>
                     </div>
                 </div>
                 <div class="col-md-2 m-b-100">
@@ -233,10 +229,10 @@
             <div class="row header">
                 <div class="col-md-12">
                     <h2 class="subtitle text-center">
-                        为什么选择我们
+                        我们的服务
                     </h2>
                     <h3 class="text-center">
-                        你值得信赖的伙伴
+                        我们目前能做到的
                     </h3>
                 </div>
             </div>
@@ -248,7 +244,7 @@
                                 <!-- <i class="fa fa-cube"></i> -->
                                 <img src="/images/patho-chara-1.jpg" alt="">
                             </div>
-                            <h3>更快速</h3>
+                            <h3>快速筛查</h3>
                             <p>无需培养 测序速度快</p>
                         </div>
                     </div>
@@ -260,8 +256,8 @@
                                 <!-- <i class="fa fa-cube"></i> -->
                                 <img src="/images/patho-chara-2.jpg" alt="">
                             </div>
-                            <h3>更灵敏</h3>
-                            <p>50copies/ml的最低检测限 灵敏度高出市场同类产品1倍</p>
+                            <h3>灵敏检测</h3>
+                            <p>50copies/ml的最低检测限<nr>灵敏度高出市场同类产品1倍</p>
                         </div>
                     </div>
                 </div>
@@ -272,8 +268,8 @@
                                 <!-- <i class="fa fa-cube"></i> -->
                                 <img src="/images/patho-chara-3.jpg" alt="">
                             </div>
-                            <h3>更全面</h3>
-                            <p>大于2000种序列已知 的病原微生物</p>
+                            <h3>全面覆盖</h3>
+                            <p>大于2000种序列已知的病原微生物</p>
                         </div>
                     </div>
                 </div>

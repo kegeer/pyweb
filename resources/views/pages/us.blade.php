@@ -106,33 +106,33 @@
                 </div>
                 <div class="col-md-3 col-sm-6 client border-bottom border-right">
                     <img src="/images/pt-2.jpg" width="90" height="78">
-                    <p>深圳市罗湖总医院</p>
+                    <p>深圳市儿童医院</p>
                 </div>
                 <div class="col-md-3 col-sm-6 client border-bottom border-right">
                     <img src="/images/pt-3.jpg" width="90" height="78">
-                    <p>深圳市罗湖总医院</p>
+                    <p>第四军医大学附属西京医院</p>
                 </div>
                 <div class="col-md-3 col-sm-6 client border-bottom">
                     <img src="/images/pt-4.jpg" width="90" height="78">
-                    <p>深圳市罗湖总医院</p>
+                    <p>中国人民解放军总医院</p>
                 </div>
             </div>
             <div class="row clients-row">
                 <div class="col-md-3 col-sm-6 client border-right">
                     <img src="/images/pt-5.jpg" width="90" height="78">
-                    <p>深圳市罗湖总医院</p>
+                    <p>深圳市第二人民医院</p>
                 </div>
                 <div class="col-md-3 col-sm-6 client border-right">
                     <img src="/images/pt-6.jpg" width="90" height="78">
-                    <p>深圳市罗湖总医院</p>
+                    <p>北京大学人民医院</p>
                 </div>
                 <div class="col-md-3 col-sm-6 client border-right">
                     <img src="/images/pt-7.jpg" width="90" height="78">
-                    <p>深圳市罗湖总医院</p>
+                    <p>中国军事医学科学院</p>
                 </div>
                 <div class="col-md-3 col-sm-6 client">
                     <img src="/images/pt-8.jpg" width="90" height="78">
-                    <p>深圳市罗湖总医院</p>
+                    <p>中国医学科学院肿瘤医院</p>
                 </div>
             </div>
         </div>
