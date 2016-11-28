@@ -1,14 +1,17 @@
 
 // Fonts
 
-@import "../vendor/font-awesome/scss/font-awesome";
+@import "../../../public/vendor/font-awesome/scss/font-awesome";
 // Variables
 @import "mixins";
 @import "variables";
 
 
+
+
+
 // Bootstrap
-@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "../../../public/vendor/bootstrap-sass/assets/stylesheets/bootstrap";
 
 
 //elements
@@ -16,6 +19,8 @@
 @import "elements/navbar";
 @import "elements/button";
 @import "elements/footer";
+//plugin
+@import "elements/swiper";
 
 
 //pages

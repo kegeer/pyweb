@@ -10912,6 +10912,561 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 11px;
 }
 
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.button:focus {
+  outline: none;
+  outline-offset: 0px;
+  text-decoration: none;
+}
+
+.buttons-group {
+  margin: 0px -10px;
+}
+
+.buttons-group a,
+.buttons-group button {
+  margin: 0 10px;
+}
+
+.button-fullwidth {
+  width: 100%;
+}
+
+.button.fullwidth {
+  width: 100%;
+}
+
+a.button-image:hover {
+  opacity: 0.87;
+}
+
+/* Default Button */
+.button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  outline: 0;
+  outline-offset: 0;
+  white-space: nowrap;
+  margin: 5px;
+  padding: 0 27px;
+  font-size: 14px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #2196f3;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 4px;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.button i {
+  color: #fff;
+  position: relative;
+  line-height: 1;
+  margin-right: 5px;
+}
+
+.button:hover,
+.button:focus {
+  color: #fff;
+  opacity: .87;
+}
+
+.button:hover i,
+.button:focus i {
+  color: #fff;
+}
+
+.button.icon-right i {
+  margin: 0 0 0 5px;
+}
+
+/* Button Styles */
+.button.button-noradius {
+  border-radius: 0;
+}
+
+.button.button-rounded {
+  border-radius: 26px;
+}
+
+.button.button-border {
+  border: 2px solid #2196f3;
+  background-color: transparent !important;
+  color: #2196f3;
+  line-height: 36px;
+}
+
+.button.button-border.border-thin {
+  border-width: 1px;
+  line-height: 38px;
+}
+
+.button.button-border i {
+  color: #2196f3;
+}
+
+.button.button-link,
+.button.button-link-uppercase {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+.button.button-link-uppercase {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+}
+
+.button.button-link,
+.button.button-link-uppercase,
+.button.button-link i,
+.button.button-link-uppercase i {
+  color: #2196f3;
+}
+
+.button.button-shadow {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.09);
+}
+
+/* Button Sizes */
+.button.button-mini {
+  padding: 0 19px;
+  font-size: 11px;
+  height: 28px;
+  line-height: 28px;
+}
+
+.button.button-border.button-mini {
+  line-height: 24px;
+}
+
+.button.button-border.border-thin.button-mini {
+  line-height: 26px;
+}
+
+.button.button-small {
+  padding: 0 22px;
+  font-size: 12px;
+  height: 34px;
+  line-height: 34px;
+}
+
+.button.button-border.button-small {
+  line-height: 30px;
+}
+
+.button.button-border.border-thin.button-small {
+  line-height: 32px;
+}
+
+.button.button-large {
+  padding: 0 31px;
+  font-size: 16px;
+  height: 46px;
+  line-height: 46px;
+}
+
+.button.button-border.button-large {
+  line-height: 42px;
+}
+
+.button.button-border.border-thin.button-large {
+  line-height: 44px;
+}
+
+.button.button-xlarge {
+  padding: 0 37px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  height: 52px;
+  line-height: 52px;
+}
+
+.button.button-border.button-xlarge {
+  line-height: 48px;
+}
+
+.button.button-border.border-thin.button-xlarge {
+  line-height: 50px;
+}
+
+/* Button Colours */
+/* Red */
+.button.button-red {
+  background-color: #dd4b39;
+}
+
+.button.button-red.button-border {
+  border-color: #dd4b39;
+}
+
+.button.button-red.button-shadow {
+  box-shadow: 0 10px 20px rgba(221, 75, 57, 0.21);
+}
+
+.button.button-red.button-border,
+.button.button-red.button-link,
+.button.button-red.button-link-uppercase,
+.button.button-red.button-border i,
+.button.button-red.button-link i,
+.button.button-red.button-link-uppercase i {
+  color: #dd4b39;
+}
+
+/* Pink */
+.button.button-pink {
+  background-color: #e91e63;
+}
+
+.button.button-pink.button-border {
+  border-color: #e91e63;
+}
+
+.button.button-pink.button-shadow {
+  box-shadow: 0 10px 20px rgba(233, 30, 99, 0.21);
+}
+
+.button.button-pink.button-border,
+.button.button-pink.button-link,
+.button.button-pink.button-link-uppercase,
+.button.button-pink.button-border i,
+.button.button-pink.button-link i,
+.button.button-pink.button-link-uppercase i {
+  color: #e91e63;
+}
+
+/* Purple */
+.button.button-purple {
+  background-color: #9c27b0;
+}
+
+.button.button-purple.button-border {
+  border-color: #9c27b0;
+}
+
+.button.button-purple.button-shadow {
+  box-shadow: 0 10px 20px rgba(156, 39, 176, 0.21);
+}
+
+.button.button-purple.button-border,
+.button.button-purple.button-link,
+.button.button-purple.button-link-uppercase,
+.button.button-purple.button-border i,
+.button.button-purple.button-link i,
+.button.button-purple.button-link-uppercase i {
+  color: #9c27b0;
+}
+
+/* Indigo */
+.button.button-indigo {
+  background-color: #2951d5;
+}
+
+.button.button-indigo.button-border {
+  border-color: #2951d5;
+}
+
+.button.button-indigo.button-shadow {
+  box-shadow: 0 10px 20px rgba(63, 81, 181, 0.21);
+}
+
+.button.button-indigo.button-border,
+.button.button-indigo.button-link,
+.button.button-indigo.button-link-uppercase,
+.button.button-indigo.button-border i,
+.button.button-indigo.button-link i,
+.button.button-indigo.button-link-uppercase i {
+  color: #2951d5;
+}
+
+/* Blue */
+.button.button-blue {
+  background-color: #2196f3;
+}
+
+.button.button-blue.button-border {
+  border-color: #2196f3;
+}
+
+.button.button-blue.button-shadow {
+  box-shadow: 0 10px 20px rgba(33, 150, 243, 0.21);
+}
+
+.button.button-blue.button-border,
+.button.button-blue.button-link,
+.button.button-blue.button-link-uppercase,
+.button.button-blue.button-border i,
+.button.button-blue.button-link i,
+.button.button-blue.button-link-uppercase i {
+  color: #2196f3;
+}
+
+/* Cyan */
+.button.button-cyan {
+  background-color: #00bcd4;
+}
+
+.button.button-cyan.button-border {
+  border-color: #00bcd4;
+}
+
+.button.button-cyan.button-shadow {
+  box-shadow: 0 10px 20px rgba(0, 188, 212, 0.21);
+}
+
+.button.button-cyan.button-border,
+.button.button-cyan.button-link,
+.button.button-cyan.button-link-uppercase,
+.button.button-cyan.button-border i,
+.button.button-cyan.button-link i,
+.button.button-cyan.button-link-uppercase i {
+  color: #00bcd4;
+}
+
+/* Teal */
+.button.button-teal {
+  background-color: #80CBC4;
+}
+
+.button.button-teal.button-border {
+  border-color: #80CBC4;
+}
+
+.button.button-teal.button-shadow {
+  box-shadow: 0 10px 20px rgba(128, 203, 196, 0.21);
+}
+
+.button.button-teal.button-border,
+.button.button-teal.button-link,
+.button.button-teal.button-link-uppercase,
+.button.button-teal.button-border i,
+.button.button-teal.button-link i,
+.button.button-teal.button-link-uppercase i {
+  color: #80CBC4;
+}
+
+/* Green */
+.button.button-green {
+  background-color: #8bc34a;
+}
+
+.button.button-green.button-border {
+  border-color: #8bc34a;
+}
+
+.button.button-green.button-shadow {
+  box-shadow: 0 10px 20px rgba(139, 195, 74, 0.21);
+}
+
+.button.button-green.button-border,
+.button.button-green.button-link,
+.button.button-green.button-link-uppercase,
+.button.button-green.button-border i,
+.button.button-green.button-link i,
+.button.button-green.button-link-uppercase i {
+  color: #8bc34a;
+}
+
+/* Lime */
+.button.button-lime {
+  background-color: #cddc39;
+}
+
+.button.button-lime.button-border {
+  border-color: #cddc39;
+}
+
+.button.button-lime.button-shadow {
+  box-shadow: 0 10px 20px rgba(205, 220, 57, 0.21);
+}
+
+.button.button-lime.button-border,
+.button.button-lime.button-link,
+.button.button-lime.button-link-uppercase,
+.button.button-lime.button-border i,
+.button.button-lime.button-link i,
+.button.button-lime.button-link-uppercase i {
+  color: #cddc39;
+}
+
+/* Yellow */
+.button.button-yellow {
+  background-color: #ffeb3b;
+}
+
+.button.button-yellow.button-border {
+  border-color: #ffeb3b;
+}
+
+.button.button-yellow.button-shadow {
+  box-shadow: 0 10px 20px rgba(255, 235, 59, 0.21);
+}
+
+.button.button-yellow.button-border,
+.button.button-yellow.button-link,
+.button.button-yellow.button-link-uppercase,
+.button.button-yellow.button-border i,
+.button.button-yellow.button-link i,
+.button.button-yellow.button-link-uppercase i {
+  color: #ffeb3b;
+}
+
+/* Amber */
+.button.button-amber {
+  background-color: #ffc107;
+}
+
+.button.button-amber.button-border {
+  border-color: #ffc107;
+}
+
+.button.button-amber.button-shadow {
+  box-shadow: 0 10px 20px rgba(255, 193, 7, 0.21);
+}
+
+.button.button-amber.button-border,
+.button.button-amber.button-link,
+.button.button-amber.button-link-uppercase,
+.button.button-amber.button-border i,
+.button.button-amber.button-link i,
+.button.button-amber.button-link-uppercase i {
+  color: #ffc107;
+}
+
+/* Orange */
+.button.button-orange {
+  background-color: #ff9800;
+}
+
+.button.button-orange.button-border {
+  border-color: #ff9800;
+}
+
+.button.button-orange.button-shadow {
+  box-shadow: 0 10px 20px rgba(255, 152, 0, 0.21);
+}
+
+.button.button-orange.button-border,
+.button.button-orange.button-link,
+.button.button-orange.button-link-uppercase,
+.button.button-orange.button-border i,
+.button.button-orange.button-link i,
+.button.button-orange.button-link-uppercase i {
+  color: #ff9800;
+}
+
+/* Brown */
+.button.button-brown {
+  background-color: #795548;
+}
+
+.button.button-brown.button-border {
+  border-color: #795548;
+}
+
+.button.button-brown.button-shadow {
+  box-shadow: 0 10px 20px rgba(121, 85, 72, 0.21);
+}
+
+.button.button-brown.button-border,
+.button.button-brown.button-link,
+.button.button-brown.button-link-uppercase,
+.button.button-brown.button-border i,
+.button.button-brown.button-link i,
+.button.button-brown.button-link-uppercase i {
+  color: #795548;
+}
+
+/* Grey */
+.button.button-grey {
+  background-color: #f5f7f9;
+}
+
+.button.button-grey,
+.button.button-grey i,
+.button.button-grey:hover,
+.button.button-grey:hover i,
+.button.button-grey.button-border,
+.button.button-grey.button-border i {
+  color: #333;
+}
+
+.button.button-grey.button-border {
+  border-color: #e5e7e9;
+}
+
+.button.button-grey.button-shadow {
+  box-shadow: 0 10px 20px rgba(237, 237, 237, 0.21);
+}
+
+.button.button-grey.button-link,
+.button.button-grey.button-link-uppercase,
+.button.button-grey.button-link i,
+.button.button-grey.button-link-uppercase i {
+  color: #777;
+}
+
+/* Black */
+.button.button-black {
+  background-color: #333;
+}
+
+.button.button-black.button-border {
+  border-color: #333;
+}
+
+.button.button-black.button-shadow {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.09);
+}
+
+.button.button-black.button-border,
+.button.button-black.button-link,
+.button.button-black.button-link-uppercase,
+.button.button-black.button-border i,
+.button.button-black.button-link i,
+.button.button-black.button-link-uppercase i {
+  color: #333;
+}
+
+/* White */
+.button.button-white {
+  background-color: #fff;
+}
+
+.button.button-white,
+.button.button-white i,
+.button.button-white:hover,
+.button.button-white:hover i {
+  color: #333;
+}
+
+.button.button-white.button-border {
+  border-color: #fff;
+}
+
+.button.button-white.button-border,
+.button.button-white.button-link,
+.button.button-white.button-link-uppercase,
+.button.button-white.button-border i,
+.button.button-white.button-link i,
+.button.button-white.button-link-uppercase i,
+.button.button-white.button-border:hover,
+.button.button-white.button-border:hover i,
+.button.button-white.button-link:hover,
+.button.button-white.button-link-uppercase:hover,
+.button.button-white.button-link:hover i,
+.button.button-white.button-link-uppercase:hover i {
+  color: #fff;
+}
+
 .site-footer {
   margin: 0 auto;
   width: 100%;
@@ -10937,6 +11492,337 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 30px;
   background-color: #222222;
   margin: 0 !important;
+}
+
+.swiper-slider {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.swiper-slider.fullwidth {
+  height: 700px;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slider .swiper-slide {
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+}
+
+.swiper-slider .slide-container {
+  z-index: 1;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slider .table-container {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.swiper-slider .swiper-parallax-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 130%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Pagination */
+.swiper-slider .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  border-radius: 0;
+  background: #fff;
+  opacity: 1;
+}
+
+.swiper-slider .swiper-container-horizontal > .swiper-pagination .swiper-pagination-bullet {
+  margin: 3px 8px 3px 8px;
+}
+
+.swiper-slider .swiper-container-vertical > .swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 8px 3px 8px 3px;
+}
+
+.swiper-slider .swiper-container-vertical > .swiper-pagination-bullets .swiper-pagination-bullet-active {
+  margin: 5px 0px 5px 0px;
+}
+
+.swiper-slider .swiper-pagination-bullet-active,
+.swiper-slider .swiper-container-horizontal > .swiper-pagination .swiper-pagination-bullet-active {
+  width: 14px;
+  height: 14px;
+  border: 3px solid #fff;
+  background: transparent;
+  margin: 0px 5px 0px 5px;
+}
+
+.swiper-slider .swiper-pagination.pagination-dark .swiper-pagination-bullet {
+  background: #333;
+}
+
+.swiper-slider .swiper-pagination.pagination-dark .swiper-container-horizontal > .swiper-pagination .swiper-pagination-bullet-active,
+.swiper-slider .swiper-pagination.pagination-dark .swiper-pagination-bullet-active {
+  background: transparent;
+  border-color: #333;
+}
+
+/* Navigation Buttons */
+.swiper-slider .swiper-button-next,
+.swiper-gallery .swiper-button-next,
+.swiper-slider .swiper-button-prev,
+.swiper-gallery .swiper-button-prev,
+.swiper-slider .swiper-container-rtl .swiper-button-next,
+.swiper-gallery .swiper-container-rtl .swiper-button-next,
+.swiper-slider .swiper-container-rtl .swiper-button-prev,
+.swiper-gallery .swiper-container-rtl .swiper-button-prev {
+  background: none;
+}
+
+.swiper-slider .swiper-button-next,
+.swiper-gallery .swiper-button-next,
+.swiper-slider .swiper-button-prev,
+.swiper-gallery .swiper-button-prev {
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  margin-top: -25px;
+  color: #fff;
+  font-size: 34px;
+  line-height: 50px;
+  text-align: center;
+  transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+}
+
+.swiper-slider .swiper-button-next.dark,
+.swiper-gallery .swiper-button-next.dark,
+.swiper-slider .swiper-button-prev.dark,
+.swiper-gallery .swiper-button-prev.dark {
+  color: #333;
+}
+
+.swiper-slider .swiper-button-next.style-2,
+.swiper-gallery .swiper-button-next.style-2,
+.swiper-slider .swiper-button-prev.style-2,
+.swiper-gallery .swiper-button-prev.style-2 {
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  font-size: 24px;
+  line-height: 40px;
+  color: #333;
+  background: #fff;
+}
+
+.swiper-slider .swiper-button-next.style-2,
+.swiper-gallery .swiper-button-next.style-2,
+.swiper-slider .swiper-container-rtl .swiper-button-prev.style-2,
+.swiper-gallery .swiper-container-rtl .swiper-button-prev.style-2 {
+  right: 15px;
+}
+
+.swiper-slider .swiper-button-prev.style-2,
+.swiper-gallery .swiper-button-prev.style-2,
+.swiper-slider .swiper-container-rtl .swiper-button-next.style-2,
+.swiper-gallery .swiper-container-rtl .swiper-button-next.style-2 {
+  left: 15px;
+}
+
+.swiper-slider .swiper-button-next.style-2.dark,
+.swiper-gallery .swiper-button-next.style-2.dark,
+.swiper-slider .swiper-button-prev.style-2.dark,
+.swiper-gallery .swiper-button-prev.style-2.dark {
+  color: #fff;
+  background: rgba(50, 50, 50, 0.8);
+}
+
+.swiper-slider .swiper-button-next.style-3,
+.swiper-gallery .swiper-button-next.style-3,
+.swiper-slider .swiper-button-prev.style-3,
+.swiper-gallery .swiper-button-prev.style-3 {
+  width: 50px;
+  height: 70px;
+  margin-top: -35px;
+  font-size: 28px;
+  line-height: 70px;
+  color: #333;
+  background: #fff;
+}
+
+.swiper-slider .swiper-button-next.style-3,
+.swiper-gallery .swiper-button-next.style-3,
+.swiper-slider .swiper-container-rtl .swiper-button-prev.style-3,
+.swiper-gallery .swiper-container-rtl .swiper-button-prev.style-3 {
+  right: -70px;
+}
+
+.swiper-slider:hover .swiper-button-next.style-3,
+.swiper-gallery:hover .swiper-button-next.style-3,
+.swiper-slider:hover .swiper-container-rtl .swiper-button-prev.style-3,
+.swiper-gallery:hover .swiper-container-rtl .swiper-button-prev.style-3 {
+  right: 0;
+}
+
+.swiper-slider .swiper-button-prev.style-3,
+.swiper-gallery .swiper-button-prev.style-3,
+.swiper-slider .swiper-container-rtl .swiper-button-next.style-3,
+.swiper-gallery .swiper-container-rtl .swiper-button-next.style-3 {
+  left: -70px;
+}
+
+.swiper-slider:hover .swiper-button-prev.style-3,
+.swiper-gallery:hover .swiper-button-prev.style-3,
+.swiper-slider:hover .swiper-container-rtl .swiper-button-next.style-3,
+.swiper-gallery:hover .swiper-container-rtl .swiper-button-next.style-3 {
+  left: 0;
+}
+
+.swiper-slider .swiper-button-next.style-3::before,
+.swiper-gallery .swiper-button-next.style-3::before,
+.swiper-slider .swiper-button-prev.style-3::before,
+.swiper-gallery .swiper-button-prev.style-3::before,
+.swiper-slider .swiper-button-prev.style-3::after,
+.swiper-gallery .swiper-button-prev.style-3::after,
+.swiper-slider .swiper-button-next.style-3::after,
+.swiper-gallery .swiper-button-next.style-3::after {
+  content: '';
+  position: absolute;
+  width: 70px;
+  height: 21px;
+  transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+}
+
+.swiper-slider .swiper-button-prev.style-3::before,
+.swiper-gallery .swiper-button-prev.style-3::before {
+  top: -3px;
+  right: -3px;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+}
+
+.swiper-slider .swiper-button-prev.style-3::after,
+.swiper-gallery .swiper-button-prev.style-3::after {
+  bottom: -3px;
+  right: -3px;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+}
+
+.swiper-slider .swiper-button-next.style-3::before,
+.swiper-gallery .swiper-button-next.style-3::before {
+  top: -3px;
+  left: -3px;
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+}
+
+.swiper-slider .swiper-button-next.style-3::after,
+.swiper-gallery .swiper-button-next.style-3::after {
+  bottom: -3px;
+  left: -3px;
+  border-bottom: 2px solid #fff;
+  border-left: 2px solid #fff;
+}
+
+.swiper-slider .swiper-button-next.style-3:hover::before,
+.swiper-gallery .swiper-button-next.style-3:hover::before,
+.swiper-slider .swiper-button-prev.style-3:hover::before,
+.swiper-gallery .swiper-button-prev.style-3:hover::before,
+.swiper-slider .swiper-button-next.style-3:hover::after,
+.swiper-gallery .swiper-button-next.style-3:hover::after,
+.swiper-slider .swiper-button-prev.style-3:hover::after,
+.swiper-gallery .swiper-button-prev.style-3:hover::after {
+  height: 33px;
+}
+
+.swiper-slider .swiper-button-next.style-3.dark,
+.swiper-gallery .swiper-button-next.style-3.dark,
+.swiper-slider .swiper-button-prev.style-3.dark,
+.swiper-gallery .swiper-button-prev.style-3.dark {
+  color: #fff;
+  background: #333;
+}
+
+.swiper-slider .swiper-button-next.style-3.dark::before,
+.swiper-gallery .swiper-button-next.style-3.dark::before,
+.swiper-slider .swiper-button-prev.style-3.dark::before,
+.swiper-gallery .swiper-button-prev.style-3.dark::before,
+.swiper-slider .swiper-button-prev.style-3.dark::after,
+.swiper-gallery .swiper-button-prev.style-3.dark::after,
+.swiper-slider .swiper-button-next.style-3.dark::after,
+.swiper-gallery .swiper-button-next.style-3.dark::after {
+  border-color: #333;
+}
+
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  visibility: hidden;
+}
+
+/* Swiper Slider - Gallery */
+.swiper-gallery {
+  height: 700px;
+}
+
+.swiper-gallery .swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-gallery .gallery-top {
+  height: 80%;
+  width: 100%;
+}
+
+.swiper-gallery .gallery-thumbs {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.swiper-gallery .gallery-thumbs .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+  transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+}
+
+.swiper-gallery .gallery-thumbs .swiper-slide-active {
+  opacity: 1;
+}
+
+/* Old */
+.swiper-slider.equal-col {
+  height: auto;
+}
+
+.swiper-slider.swiper_centered .swiper-slide {
+  width: 50%;
 }
 
 .section {
@@ -11347,6 +12233,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .op-9 {
   opacity: 0.9;
+}
+
+.nopadding {
+  padding: 0;
+}
+
+.nomargin {
+  margin: 0;
 }
 
 .bg-white {

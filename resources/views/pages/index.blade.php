@@ -1,51 +1,74 @@
 @extends('layouts.default')
 
-
+@section('styles')
+    <link rel="stylesheet" href="/vendor/swiper/dist/css/swiper.min.css" media="screen" title="no title">
+@stop
 @section('content')
-    <header id="index">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1" class=""></li>
-            </ol>
-            <div class="carousel-inner op-9" role="listbox">
-                <div class="item active">
-                    <img src="/images/index-1.jpg" alt="First slide" class="img-responsive">
-                    <div class="container">
-                        <div class="carousel-caption">
-                            <div class="carousel-overlay">
-                            </div>
-                            <h1>中国数字微生态研究行业领导者</h1>
-                            <p>数十年的技术积累，数以万计的项目经验已为谱元打下了坚实的技术基础。。。</p>
-                            <p><a class="btn btn-outline btn-xl page-scroll" href="/us" role="button">了解更多</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="/images/index-3.jpg" alt="Second slide" class="img-responsive">
-                    <div class="container">
-                        <div class="carousel-caption">
-                            <div class="carousel-overlay">
-                            </div>
-                            <h1>健康肠道</h1>
-                            <p>肠道微生物在人体健康中扮演着举足轻重的角色，谱元基于此开发出了多种适合个年龄层的检测产品。。。</p>
-                            <p><a class="btn btn-outline btn-xl page-scroll" href="/baby" role="button">了解更多</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-    </header>
+<section class="section nopadding">
 
+    				<!-- Swiper -->
+    				<div class="swiper-slider fullwidth">
+    					<div class="swiper-container" data-slidesperview="1" data-autoplay="5000" data-loop="false" data-keyboardcontrol="true">
+    						<div class="swiper-wrapper">
+
+    							<div class="swiper-slide p-t-80 p-b-80">
+    								<div class="overlay">
+    									<div class="overlay-wrapper">
+    										<div class="overlay-inner parallax-background" style="background-image: url('/images/index-1.jpg');"></div>
+    										<div class="overlay-inner b-d op-3"></div>
+    									</div>
+    								</div>
+    								<div class="slide-container">
+    									<div class="table-container">
+    										<div class="table-content">
+    											<div class="container text-center">
+    												<span class="text-white alt-font m-b-10 animated"> 了解谱元</span>
+    												<h1 class="text-white font-large font-light animated"">中国数字微生态研究行业领导者</h1>
+    												<p class="lead text-white animated">数十年的技术积累，数以万计的项目经验已为谱元打下了坚实的技术基础。。。</p>
+    												<div class="buttons-group animated"">
+    													<a href="/partner" class="button button-border button-rounded button-white">洽谈合作</a>
+    													<a href="#number" class="button button-white button-link icon-right scrollto">了解更多<i class="fa fa-angle-down"></i></a>
+    												</div>
+    											</div>
+    										</div>
+    									</div>
+    								</div>
+    							</div>
+
+
+    							<div class="swiper-slide p-t-80 p-b-80">
+    								<div class="overlay">
+    									<div class="overlay-wrapper">
+    										<div class="overlay-inner parallax-background" style="background-image: url('/images/index-3.jpg');"></div>
+    										<div class="overlay-inner b-d op-3"></div>
+    									</div>
+    								</div>
+    								<div class="slide-container">
+    									<div class="table-container">
+    										<div class="table-content">
+    											<div class="container text-center">
+    												<h1 class="heading-uppercase text-white font-bold font-xxlarge marginbottom-25 animated"> 健康肠道</h1>
+                                                    <p class="lead text-white animated"">肠道微生物在人体健康中扮演着举足轻重的角色，谱元基于此开发出了多种适合个年龄层的检测产品。。。</p>
+    												<div class="buttons-group animated">
+    													<a href="/partner" class="button button-border button-rounded button-white">洽谈合作</a>
+    													<a href="#number" class="button button-white button-link icon-right scrollto">了解更多<i class="fa fa-angle-down"></i></a>
+    												</div>
+    											</div>
+    										</div>
+    									</div>
+    								</div>
+    							</div>
+
+    						</div>
+    						<!-- Add Pagination -->
+    						<div class="swiper-pagination"></div>
+    						<!-- Add Arrows -->
+    						<div class="swiper-button-next"><i class="fa fa-angle-right"></i></div>
+    						<div class="swiper-button-prev"><i class="fa fa-angle-left"></i></div>
+    					</div>
+    				</div>
+
+    			</section>
     <section id="number" class="section text-center">
 
         <div class="container">
@@ -103,7 +126,7 @@
         </div>
         <div class="container-fluid container-overlay">
             <div class="row">
-                <div class="col-md-6 col-md-offset-6 col-background full-background bg-bottom-right" style="background-image:url('/images/puyuan.jpg')">
+                <div class="col-md-6 col-md-offset-6 col-background full-background bg-bottom-right" style="background-image:url('/images/puyuan.png')">
                     <img src="/images/puyuan.png" class="img-responsive mobile-image" alt="">
                 </div>
             </div>
@@ -290,3 +313,6 @@
     </section>
 
     @stop
+    @section('scripts')
+        <script src="/vendor/swiper/dist/js/swiper.jquery.min.js" charset="utf-8"></script>
+    @endsection
