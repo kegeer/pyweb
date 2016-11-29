@@ -41,7 +41,7 @@
                         <div class="box-container">
                             <div class="icon-box-icon circle">
                                 <div class="icon-container">
-                                    <i class="fa fa-cube"></i>
+                                    <i class="fa fa-medkit"></i>
                                 </div>
 
                             </div>
@@ -57,7 +57,7 @@
                         <div class="box-container">
                             <div class="icon-box-icon circle">
                                 <div class="icon-container">
-                                    <i class="fa fa-cube"></i>
+                                    <i class="fa fa-refresh"></i>
                                 </div>
 
                             </div>
@@ -73,7 +73,7 @@
                         <div class="box-container">
                             <div class="icon-box-icon circle">
                                 <div class="icon-container">
-                                    <i class="fa fa-cube"></i>
+                                    <i class="fa fa-dot-circle-o"></i>
                                 </div>
 
                             </div>

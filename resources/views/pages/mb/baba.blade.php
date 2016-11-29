@@ -18,7 +18,7 @@
                 </h3>
                 <h5 class="text-primary">新一代的健康检测产品</h5>
                 <p class="n-b-m text-white">
-                    肠道菌群约占全身菌群总数的<strong>80%</strong>,肠道是人体最重要的营养消化和吸收的场所,基于此我们退出了基于二代测序技术的肠道健康检测产品
+                    肠道菌群约占全身菌群总数的<strong>80%</strong>,肠道是人体最重要的营养消化和吸收的场所,基于此我们推出了基于二代测序技术的肠道健康检测产品
                 </p>
             </div>
         </div>
@@ -42,7 +42,7 @@
                         <div class="box-container">
                             <div class="icon-box-icon circle">
                                 <div class="icon-container">
-                                    <i class="fa fa-cube"></i>
+                                    <i class="fa fa-medkit"></i>
                                 </div>
 
                             </div>
@@ -55,7 +55,7 @@
                         <div class="box-container">
                             <div class="icon-box-icon circle">
                                 <div class="icon-container">
-                                    <i class="fa fa-cube"></i>
+                                    <i class="fa fa-thermometer-0 "></i>
                                 </div>
 
                             </div>
@@ -68,7 +68,7 @@
                         <div class="box-container">
                             <div class="icon-box-icon circle">
                                 <div class="icon-container">
-                                    <i class="fa fa-cube"></i>
+                                    <i class="fa fa-bar-chart"></i>
                                 </div>
 
                             </div>
@@ -81,7 +81,7 @@
                         <div class="box-container">
                             <div class="icon-box-icon circle">
                                 <div class="icon-container">
-                                    <i class="fa fa-cube"></i>
+                                    <i class="fa fa-vcard"></i>
                                 </div>
 
                             </div>
