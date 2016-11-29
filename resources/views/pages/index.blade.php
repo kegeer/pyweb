@@ -19,10 +19,9 @@
                         <div class="table-container">
                             <div class="table-content">
                                 <div class="container text-center">
-                                    <span class="text-white alt-font m-b-10 animated"> 了解谱元</span>
-                                    <h1 class="text-white font-large font-light animated"">中国数字微生态研究行业领军者</h1>
+                                    <h1 class="text-white font-large font-light animated">中国数字微生态领军者</h1>
                                     <p class="lead text-white animated">数十年的技术积累，数以万计的项目经验已为谱元打下了坚实的技术基础。。。</p>
-                                    <div class="buttons-group animated"">
+                                    <div class="buttons-group animated">
                                         <a href="/partner" class="button button-border button-rounded button-white">洽谈合作</a>
                                         <a href="#number" class="button button-white button-link icon-right scrollto">了解更多<i class="fa fa-angle-down"></i></a>
                                     </div>
@@ -43,9 +42,8 @@
                         <div class="table-container">
                             <div class="table-content">
                                 <div class="container text-center">
-                                    <span class="text-white alt-font m-b-10 animated">主打产品</span>
-                                    <h1 class="text-white font-large font-light animated"">粑粑说</h1>
-                                    <p class="lead text-white animated">基于人体“第二基因组”的权威健康检测餐品</p>
+                                    <h1 class="text-white font-large font-light animated">粑粑说</h1>
+                                    <p class="lead text-white animated">基于人体“第二基因组”的权威健康检测产品</p>
                                     <a href="/baba" class="button button-border button-rounded button-white">了解产品</a>
                                 </div>
                             </div>
@@ -66,7 +64,7 @@
                             <div class="table-content">
                                 <div class="container text-center">
                                     <h1 class="heading-uppercase text-white font-bold font-xxlarge marginbottom-25 animated">健康肠道</h1>
-                                    <p class="lead text-white animated"">肠道微生物在人体健康中扮演着举足轻重的角色，谱元基于此开发出了多种适合个年龄层的检测产品</p>
+                                    <p class="lead text-white animated">肠道微生物在人体健康中扮演着举足轻重的角色，谱元基于此开发出了多种适合个年龄层的检测产品</p>
                                     <div class="buttons-group animated">
                                         <a href="/partner" class="button button-border button-rounded button-white">洽谈合作</a>
                                         <a href="#number" class="button button-white button-link icon-right scrollto">了解更多<i class="fa fa-angle-down"></i></a>

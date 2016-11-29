@@ -12883,6 +12883,7 @@ p.lead {
 
 @media only screen and (max-width: 991px) {
   .row-double.left .content {
+    margin-left: 0;
     position: relative;
     left: 0;
     padding: 6%;
